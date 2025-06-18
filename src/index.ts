@@ -6,7 +6,7 @@ import {
 	getPixels as getPixelsImpl,
 	GetPixelsFunction,
 } from "./get-pixels.ts";
-import { Buffer } from "node:buffer";
+import { Buffer } from "buffer";
 
 export { getDataFromUrl, getFormat } from "./get-pixels.ts";
 
