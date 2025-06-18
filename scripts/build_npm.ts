@@ -11,7 +11,7 @@ await build({
 		},
 		custom: [
 			{
-				module: "node:buffer",
+				module: "buffer",
 				globalNames: ["Buffer"],
 			},
 		],
